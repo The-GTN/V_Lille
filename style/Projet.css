@@ -1,0 +1,156 @@
+/* Binôme Groupe 3 : Monoy Olivier / Nollet Antoine */
+#carte_lille {
+  top : 15%;
+  left : 30%;
+  position : absolute;
+  width :68%;
+  height : 70%;
+}
+
+.entete {
+  width : 28%;
+  height : 15%;
+  position : absolute;
+  top : -3%;
+  left : 0;
+  text-align: center;
+  padding-top: 1%;
+}
+
+#formulaire {
+  color : white;
+  background-color: rgba(0,0,0,0);
+  position: absolute;
+  left : 30%;
+  width:68%;
+  height : 15%;
+}
+
+#formulaire * {
+  border-radius: 20px;
+  color : rgba(0,0,0,0.8);
+  text-align: center;
+  border-style: none;
+}
+
+input,select,button{
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 20px;
+}
+
+input {
+  width:22%;
+  height:5%;
+}
+
+select * {
+  color : white;
+  background-color: rgba(0,0,0,0.3);
+}
+
+html {
+  background-color: rgba(0,0,0,0.8);
+}
+
+#liste {
+  position : absolute;
+  top : 15%;
+  height: 85%;
+  width : 27.5%;
+  display: block;
+  overflow-y: scroll;
+  background-color: rgba(0,0,0,0);
+}
+
+#liste div {
+  margin : 0 10%;
+  background-color: white;
+  color : white;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  background: none;
+  opacity: 0.6;
+}
+
+#liste div:hover {
+  opacity: 0.8;
+}
+
+#liste div p {
+  margin : 0 0;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  font-size-adjust: auto;
+}
+
+a {
+  position : absolute;
+  bottom: 0;
+  right: 0;
+  color: red;
+}
+
+#details {
+  position : absolute;
+  top : 88%;
+  left: 30%;
+  height : 5%;
+  width : 67.8%;
+  color : white;
+}
+
+#nom{
+  background-color: lightgrey;
+  color : black;
+}
+
+#nbVelos {
+  background-color: rgba(255, 238, 128, 1);
+  color : black;
+}
+
+#nbBornes {
+  background-color: rgba(125, 191, 232, 1);
+  color : black;
+  border-radius: 0 0 10px 10px;
+}
+
+#etat {
+  border-radius: 10px 10px 0 0;
+}
+
+.EN.SERVICE p {
+  transition : 0.5s;
+  background-color: rgba(185, 227, 59, 1);
+  color : black;
+}
+
+
+.HORS.SERVICE p {
+  transition : 0.5s;
+  background-color: rgba(231, 83, 75, 1);
+  color : black;
+}
+
+.EN.MAINTENANCE {
+  transition : 0.5s;
+  background-color: rgba(230,126,48,0.6);
+  color : black;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(200,200,200,0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(200,200,200,1);
+}
